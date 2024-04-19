@@ -12,6 +12,11 @@
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo:400,700">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Bungee+Shade">
   <link rel="stylesheet" type="text/css" href="cayman-upx-min.css">
+  <style>
+    .column{float:left;width:50%;}
+    .row:after{content:"";display:table;clear:both;}
+    @media screen and (max-width: 800px){.column{width: 100%;}}
+  </style>
 </head>
 <body>
 <section class="page-header">
@@ -22,94 +27,100 @@
 </section>
 <section class="main-content">
 
-  <h2>Generative 3D Services</h2>
-  <a href="https://lumalabs.ai/genie">Luma Genie</a><br/>
-  <a href="https://www.tripo3d.ai">Tripo AI</a><br/>
-  <a href="https://meshy.ai">Meshy</a><br/>
-  <a href="https://www.sudo.ai/3dgen">Sudo AI</a><br/>
+<div class="row">
+  <div class="column">
+      <h2>Generative 3D Services</h2>
+      <a href="https://lumalabs.ai/genie">Luma Genie</a><br/>
+      <a href="https://www.tripo3d.ai">Tripo AI</a><br/>
+      <a href="https://meshy.ai">Meshy</a><br/>
+      <a href="https://www.sudo.ai/3dgen">Sudo AI</a><br/>
 
-  <h2>Generative 3D Spaces</h2>
-  <a href="https://huggingface.co/spaces/stabilityai/TripoSR">TripoSR</a><br/>
-  <a href="https://huggingface.co/spaces/sudo-ai/zero123plus-demo-space">Zero123++</a><br/>
-  <a href="https://huggingface.co/spaces/hongfz16/3DTopia">3DTopia</a><br/>
-  <a href="https://huggingface.co/spaces/TencentARC/InstantMesh">InstantMesh</a><br/>
-  <a href="https://huggingface.co/spaces/cvlab/zero123-live">Zero123-live</a><br/>
-  <a href="https://huggingface.co/spaces/One-2-3-45/One-2-3-45">One-2-3-45</a><br/>
-  <a href="https://huggingface.co/spaces/flamehaze1115/Wonder3D-demo">Wonder3D</a><br/>
-  <a href="https://huggingface.co/spaces/LiheYoung/Depth-Anything">Depth Anything</a><br/>
-  <a href="https://huggingface.co/spaces/DreamerK12/stabilityai-stable-diffusion-2-1">StabilityAI Stable Diffusion</a><br/>
+      <h2>Generative 3D Spaces</h2>
+      <a href="https://huggingface.co/spaces/stabilityai/TripoSR">TripoSR</a><br/>
+      <a href="https://huggingface.co/spaces/sudo-ai/zero123plus-demo-space">Zero123++</a><br/>
+      <a href="https://huggingface.co/spaces/hongfz16/3DTopia">3DTopia</a><br/>
+      <a href="https://huggingface.co/spaces/TencentARC/InstantMesh">InstantMesh</a><br/>
+      <a href="https://huggingface.co/spaces/cvlab/zero123-live">Zero123-live</a><br/>
+      <a href="https://huggingface.co/spaces/One-2-3-45/One-2-3-45">One-2-3-45</a><br/>
+      <a href="https://huggingface.co/spaces/flamehaze1115/Wonder3D-demo">Wonder3D</a><br/>
+      <a href="https://huggingface.co/spaces/LiheYoung/Depth-Anything">Depth Anything</a><br/>
+      <a href="https://huggingface.co/spaces/DreamerK12/stabilityai-stable-diffusion-2-1">StabilityAI Stable Diffusion</a><br/>
 
-  <h2>Stable Diffusion</h2>
-  <a href="https://civitai.com">Civit AI</a><br/>
-  <a href="https://nightcafe.studio">NightCafe</a><br/>
-  <a href="https://midjourney.com/showcase">Midjourney</a><br/>
-  <a href="https://lexica.art">Lexica</a><br/>
-  <a href="https://starryai.com">Starry AI</a><br/>
-  <a href="https://dreamlike.art">Dreamlike.art</a><br/>
-  <a href="https://mage.space">Mage.space</a><br/>
-  <a href="https://skybox.blockadelabs.com">Blockade Labs</a><br/>
+      <h2>Human Art</h2>
+      <a href="https://downloadfree3d.com">DownloadFree3D</a><br/>
+      <a href="https://sketchfab.com">Sketchfab</a><br/>
+      <a href="https://www.turbosquid.com">TurboSquid</a><br/>
+      <a href="https://www.cgtrader.com">CGTrader</a><br/>
+      <a href="https://www.thingiverse.com">Thingiverse</a><br/>
+      <a href="https://free3d.com">Free3D</a><br/>
+      <a href="https://poly.cam/explore">Polycam</a><br/>
+      <a href="https://3d.si.edu/explore">Smithsonian</a><br/>
+      <a href="https://archive.org/details/@mrbid">Archive.org</a><br/>
 
-  <h2>Voxels</h2>
-  <a href="https://drububu.com/miscellaneous/voxelizer/">Drububu Voxelizer</a><br/>
-  <a href="https://objtoschematic.com/">ObjToSchematic</a><br/>
-  <a href="https://Woxel.xyz">Woxel</a><br/>
-  <a href="https://voxelator.com/">Voxelator</a><br/>
-  <a href="https://nimadez.github.io/voxel-builder/">Voxel Builder</a><br/>
-  <a href="https://cu.bzh/">Cubzh</a><br/>
+      <h2>NeRF</h2>
+      <a href="https://github.com/NVlabs/instant-ngp">Instant-NGP</a><br/>
+      <a href="https://github.com/naver/dust3r">Dust3r</a><br/>
+      <a href="https://docs.nerf.studio/">NeRF Studio</a><br/>
+      <a href="https://colmap.github.io/">COLMAP</a><br/>
+      <a href="https://github.com/Linyou/taichi-ngp-renderer">Taichi-NGP</a><br/>
+      <a href="https://github.com/nerfstudio-project/nerfacc">NerfAcc</a><br/>
+      
+      <h2>Zero-shot</h2>
+      <a href="https://zero123.cs.columbia.edu/">Zero123</a><br/>
+      <a href="https://github.com/SUDO-AI-3D/zero123plus">Zero123++</a><br/>
+      <a href="https://one-2-3-45.github.io/">One-2-3-45</a><br/>
+      <a href="https://sudo-ai-3d.github.io/One2345plus_page/">One-2-3-45++</a><br/>
+      <a href="https://mv-dream.github.io/">MVDream</a><br/>
+      <a href="https://liuyuan-pal.github.io/SyncDreamer/">SyncDreamer</a><br/>
+      <a href="https://www.xxlong.site/Wonder3D/">Wonder3D</a><br/>
+  </div>
+  <div class="column">
+      <p/>
+      <h2>Stable Diffusion</h2>
+      <a href="https://civitai.com">Civit AI</a><br/>
+      <a href="https://nightcafe.studio">NightCafe</a><br/>
+      <a href="https://midjourney.com/showcase">Midjourney</a><br/>
+      <a href="https://lexica.art">Lexica</a><br/>
+      <a href="https://starryai.com">Starry AI</a><br/>
+      <a href="https://dreamlike.art">Dreamlike.art</a><br/>
+      <a href="https://mage.space">Mage.space</a><br/>
+      <a href="https://skybox.blockadelabs.com">Blockade Labs</a><br/>
 
-  <h2>Human Art</h2>
-  <a href="https://downloadfree3d.com">DownloadFree3D</a><br/>
-  <a href="https://sketchfab.com">Sketchfab</a><br/>
-  <a href="https://www.turbosquid.com">TurboSquid</a><br/>
-  <a href="https://www.cgtrader.com">CGTrader</a><br/>
-  <a href="https://www.thingiverse.com">Thingiverse</a><br/>
-  <a href="https://free3d.com">Free3D</a><br/>
-  <a href="https://poly.cam/explore">Polycam</a><br/>
-  <a href="https://3d.si.edu/explore">Smithsonian</a><br/>
-  <a href="https://archive.org/details/@mrbid">Archive.org</a><br/>
+      <h2>Voxels</h2>
+      <a href="https://drububu.com/miscellaneous/voxelizer/">Drububu Voxelizer</a><br/>
+      <a href="https://objtoschematic.com/">ObjToSchematic</a><br/>
+      <a href="https://Woxel.xyz">Woxel</a><br/>
+      <a href="https://voxelator.com/">Voxelator</a><br/>
+      <a href="https://nimadez.github.io/voxel-builder/">Voxel Builder</a><br/>
+      <a href="https://cu.bzh/">Cubzh</a><br/>
 
-  <h2>NeRF</h2>
-  <a href="https://github.com/NVlabs/instant-ngp">Instant-NGP</a><br/>
-  <a href="https://github.com/naver/dust3r">Dust3r</a><br/>
-  <a href="https://docs.nerf.studio/">NeRF Studio</a><br/>
-  <a href="https://colmap.github.io/">COLMAP</a><br/>
-  <a href="https://github.com/Linyou/taichi-ngp-renderer">Taichi-NGP</a><br/>
-  <a href="https://github.com/nerfstudio-project/nerfacc">NerfAcc</a><br/>
-  
-  <h2>Zero-shot</h2>
-  <a href="https://zero123.cs.columbia.edu/">Zero123</a><br/>
-  <a href="https://github.com/SUDO-AI-3D/zero123plus">Zero123++</a><br/>
-  <a href="https://one-2-3-45.github.io/">One-2-3-45</a><br/>
-  <a href="https://sudo-ai-3d.github.io/One2345plus_page/">One-2-3-45++</a><br/>
-  <a href="https://mv-dream.github.io/">MVDream</a><br/>
-  <a href="https://liuyuan-pal.github.io/SyncDreamer/">SyncDreamer</a><br/>
-  <a href="https://www.xxlong.site/Wonder3D/">Wonder3D</a><br/>
+      <h2>Datasets</h2>
+      <a href="https://objaverse.allenai.org/">Objaverse XL</a><br/>
+      <a href="https://objaverse.allenai.org/objaverse-1.0/">Objaverse 1.0</a><br/>
+      <a href="https://huggingface.co/datasets/BAAI/Objaverse-MIX">Objaverse MIX</a><br/>
+      <a href="https://huggingface.co/datasets/kxic/Objaverse_zero123_wds">Objaverse Zero123 WDS</a><br/>
+      <a href="https://huggingface.co/datasets/tfnn/Plyverse-1.0">Plyverse 1.0 10k</a><br/>
+      <a href="https://huggingface.co/datasets/tfnn/Objaverse-PLY-125k">Objaverse PLY 125k</a><br/>
+      <a href="https://huggingface.co/datasets/tfnn/thispersondoesnotexist_to_triposr_6748_3D_Heads">ThisPersonDoesNotExist to TripoSR 6.7k</a><br/>
+      <a href="https://huggingface.co/datasets/tfnn/MESHY.AI_800_GLB_3D-Assets_Categorised_and_Labelled">Meshy 800 GLB Categorised & Labelled</a><br/>
+      <a href="https://huggingface.co/datasets/tfnn/MESHY.AI_363_PLY_Creatures_Labelled">Meshy.ai 363 PLY Creatures Labelled</a><br/>
 
-  <h2>Datasets</h2>
-  <a href="https://objaverse.allenai.org/">Objaverse XL</a><br/>
-  <a href="https://objaverse.allenai.org/objaverse-1.0/">Objaverse 1.0</a><br/>
-  <a href="https://huggingface.co/datasets/BAAI/Objaverse-MIX">Objaverse MIX</a><br/>
-  <a href="https://huggingface.co/datasets/kxic/Objaverse_zero123_wds">Objaverse Zero123 WDS</a><br/>
-  <a href="https://huggingface.co/datasets/tfnn/Plyverse-1.0">Plyverse 1.0 10k</a><br/>
-  <a href="https://huggingface.co/datasets/tfnn/Objaverse-PLY-125k">Objaverse PLY 125k</a><br/>
-  <a href="https://huggingface.co/datasets/tfnn/thispersondoesnotexist_to_triposr_6748_3D_Heads">ThisPersonDoesNotExist to TripoSR 6.7k</a><br/>
-  <a href="https://huggingface.co/datasets/tfnn/MESHY.AI_800_GLB_3D-Assets_Categorised_and_Labelled">Meshy 800 GLB Categorised & Labelled</a><br/>
-  <a href="https://huggingface.co/datasets/tfnn/MESHY.AI_363_PLY_Creatures_Labelled">Meshy.ai 363 PLY Creatures Labelled</a><br/>
-
-  <h2>Other Resources</h2>
-  <a href="https://paperswithcode.com/task/text-to-3d">Papers With Code</a><br/>
-  <a href="https://github.com/topics/text-to-3d">Github Text-To-3D</a><br/>
-  <a href="https://github.com/topics/image-to-3d">Github Image-To-3D</a><br/>
-  <a href="https://github.com/yyeboah/Awesome-Text-to-3D">Awesome Text-to-3D List</a><br/>
-  <a href="https://github.com/StellarCheng/Awesome-Text-to-3D">Awesome Text/Image-to-3D List</a><br/>
-  <a href="https://github.com/pansanity666/Awesome-Avatars">Awesome Avatars List</a><br/>
-  <a href="https://github.com/openMVG/awesome_3DReconstruction_list">Awesome 3D-Reconstruction List</a><br/>
-  <a href="https://github.com/atfortes/Awesome-Controllable-Generation">Awesome Controllable Generation List</a><br/>
-  <a href="https://github.com/pansanity666/Awesome-pytorch-list">Awesome Pytorch List</a><br/>
-  <a href="https://github.com/jtoy/awesome-tensorflow">Awesome Tensorflow</a><br/>
-  <a href="https://github.com/margaretmz/awesome-tensorflow-lite">Awesome Tensorflow Lite</a><br/>
-  <a href="https://github.com/Amin-Tgz/awesome-tensorflow-2">Awesome Tensorflow 2</a><br/>
-  <a href="https://github.com/kozistr/Awesome-GANs">Awesome GANs</a><br/>
+      <h2>Other Resources</h2>
+      <a href="https://paperswithcode.com/task/text-to-3d">Papers With Code</a><br/>
+      <a href="https://github.com/topics/text-to-3d">Github Text-To-3D</a><br/>
+      <a href="https://github.com/topics/image-to-3d">Github Image-To-3D</a><br/>
+      <a href="https://github.com/yyeboah/Awesome-Text-to-3D">Awesome Text-to-3D List</a><br/>
+      <a href="https://github.com/StellarCheng/Awesome-Text-to-3D">Awesome Text/Image-to-3D List</a><br/>
+      <a href="https://github.com/pansanity666/Awesome-Avatars">Awesome Avatars List</a><br/>
+      <a href="https://github.com/openMVG/awesome_3DReconstruction_list">Awesome 3D-Reconstruction List</a><br/>
+      <a href="https://github.com/atfortes/Awesome-Controllable-Generation">Awesome Controllable Generation List</a><br/>
+      <a href="https://github.com/pansanity666/Awesome-pytorch-list">Awesome Pytorch List</a><br/>
+      <a href="https://github.com/jtoy/awesome-tensorflow">Awesome Tensorflow</a><br/>
+      <a href="https://github.com/margaretmz/awesome-tensorflow-lite">Awesome Tensorflow Lite</a><br/>
+      <a href="https://github.com/Amin-Tgz/awesome-tensorflow-2">Awesome Tensorflow 2</a><br/>
+      <a href="https://github.com/kozistr/Awesome-GANs">Awesome GANs</a><br/>
+  </div>
+</div>
 
 <footer class="site-footer">
   Last updated: <i>Fri 19 Apr 18:14:58 UTC 2024</i>&nbsp;•&nbsp;Submit new content <a href="https://github.com/ImageTo3D/imageto3d.github.io/issues">here</a>.
